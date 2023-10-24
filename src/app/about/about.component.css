@@ -1,0 +1,79 @@
+.about-section {
+  height: 100vh;
+  margin-left: calc((100vw / 25) * 5);
+  margin-right: calc((100vw / 25) * 5);
+}
+
+.about-content {
+  height: 100%;
+  display: flex;
+}
+
+.about-content .about-text {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colored {
+  color: #64FFDA;
+}
+
+.about-content .about-text h1 {
+  font-size: 3.5vh;
+  margin-bottom: 5vh;
+  position: relative;
+  color: #CCD6F6;
+  overflow: hidden;
+}
+
+.about-content .about-text h1:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 0.1vh solid #8892B0;
+}
+
+.about-content .about-text p {
+  font-size: 2vh;
+  color: #8892B0;
+  text-align: justify;
+}
+
+.about-content .about-text i {
+  margin-top: 1.5vh;
+}
+
+.about-content .about-text .about-technologies-list {
+  display: flex;
+}
+
+.about-content .about-text .about-technologies-list .about-technologies-list-left-side,
+.about-content .about-text .about-technologies-list .about-technologies-list-right-side {
+  flex: 1;
+}
+
+.about-content .about-pofile-picture {
+  flex: 1;
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 700px) {
+  .about-section {
+    margin-left: calc((100vw / 25) * 4);
+    margin-right: calc((100vw / 25) * 4);
+  }
+
+  .about-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,43 @@
+.contact {
+  position: fixed;
+  bottom: 0;
+  z-index: 998;
+}
+
+.left-side {
+  left: calc(100vw / 25);
+}
+
+.right-side {
+  right: calc(100vw / 25);
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact ul li {
+  margin-bottom: calc(100vh / 22);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  color: #CCD6F6;
+  font-size: 1.5vh; 
+}
+
+.contact ul li:hover {
+  transform: translateY(-6px);
+  color: #64FFDA;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  font-size: 2.5vh;
+}
+
+.vertical-line {
+  width: 0.1vw;
+  height: calc(100vh / 7);
+  margin: auto;
+  background-color: #CCD6F6;
+}

@@ -1,0 +1,110 @@
+.experience-section {
+  height: 100vh;
+  margin-left: calc((100vw / 25) * 7);
+  margin-right: calc((100vw / 25) * 4);
+}
+
+.experience-content {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colored {
+  color: #64FFDA;
+}
+
+.experience-content > h1 {
+  font-size: 3.5vh;
+  margin-bottom: 5vh;
+  position: relative;
+  color: #CCD6F6;
+  overflow: hidden;
+}
+
+.experience-content > h1:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 0.1vh solid #8892B0;
+}
+
+.experience-content-nav {
+  display: flex;
+}
+
+.experience-content-nav .experience-places {
+  min-width: 15vh;
+}
+
+.experience-content-nav .experience-places ul li {
+  cursor: pointer;
+  list-style: none;
+  color: #8892B0;
+  text-align: center;
+  padding: 1vh;
+  font-size: 2vh;
+  border-left: 0.2vh solid;
+  transition: color 0.5s ease, border-left 0.2s ease;
+}
+
+.experience-content-nav .experience-places ul li.selected {
+  color: #64FFDA;
+  background-color: rgba(100, 255, 218, 0.2);
+  border-left: solid;
+}
+
+.fa-circle-chevron-right + a {
+  margin-left: 0; /* Réinitialise le margin-left pour supprimer le point */
+}
+
+.experience-content-nav .experience-details {
+  margin-left: 3vh;
+}
+
+.experience-content-nav .experience-details .job {
+  color: #CCD6F6;
+  margin-bottom: 1vh;
+  font-size: 2.5vh;
+}
+
+.experience-content-nav .experience-details .job a {
+  text-decoration: none;
+}
+
+.experience-content-nav .experience-details .date {
+  color: #8892B0;
+  margin-bottom: 3vh;
+  font-size: 1.8vh;
+}
+
+.experience-content-nav .experience-details ul {
+  padding: 0;
+  list-style: none;
+}
+
+.experience-content-nav .experience-details .mission {
+  margin-bottom: 2vh;
+  font-size: 1.8vh;
+  color: #8892B0;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.experience-content-nav .experience-details .mission .icon {
+  margin-right: 2vh;
+}
+
+@media(max-width: 700px) {
+  .experience-section {
+    margin-left: calc((100vw / 25) * 4);
+    margin-right: calc((100vw / 25) * 4);
+  }
+}

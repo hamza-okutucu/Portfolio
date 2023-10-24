@@ -1,0 +1,25 @@
+<section class="experience-section" id="experience-section" data-aos="fade-right" data-aos-duration="3000">
+    <div class="experience-content">
+        <h1><span class="colored">02.</span> Where I've Worked</h1>
+        <div class="experience-content-nav">
+            <div class="experience-places">
+                <ul>
+                    <li *ngFor="let company of companies" 
+                        (click)="selectCompany(company)"
+                        [ngClass]="{'selected': selectedCompany === company}">
+                        {{ company.name }}
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-details">
+                <h1 class="job">{{ selectedCompany!.job }} <a href="{{ selectedCompany!.link }}" target="_blank" class="colored fa-regular fa-at">{{ selectedCompany!.name }}</a></h1>
+                <p class="date">{{ selectedCompany!.date }}</p>
+                <ul>
+                    <li *ngFor="let mission of selectedCompany.missions">
+                        <p class="mission"><i class="fa-solid fa-circle-chevron-right colored icon"></i>{{ mission }}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
