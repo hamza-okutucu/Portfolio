@@ -1,6 +1,6 @@
 # Portfolio
 
-https://github.com/hamza-okutucu/Portfolio/assets/148505345/c6508dc0-aa1d-45a1-a448-27d153af7afb
+https://github.com/hamza-okutucu/Portfolio/assets/148505345/fddbc1da-3433-48e7-9cb6-1496418c4e22
 
 ## Development server
 
