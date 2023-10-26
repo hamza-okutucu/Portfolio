@@ -82,7 +82,7 @@
 
 .get-started-button {
   padding: 1.7vh 2vh;
-  font-size: 2vh;
+  font-size: min(2vh, 2vw);
   background-color: transparent;
   color: #64FFDA;
   text-decoration: none;

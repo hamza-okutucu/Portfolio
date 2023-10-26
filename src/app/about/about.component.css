@@ -78,7 +78,7 @@
   filter: none;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 1200px) {
   .about-section {
     margin-left: calc((100vw / 25) * 4);
     margin-right: calc((100vw / 25) * 4);
