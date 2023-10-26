@@ -66,6 +66,18 @@
   align-items: center;
 }
 
+.profile-image {
+  width: 17vw;
+  height: 30vh;
+  filter: brightness(0.8) saturate(50%) hue-rotate(170deg);
+  transition: filter 0.3s;
+  border-radius: 50%;
+}
+
+.profile-image:hover {
+  filter: none;
+}
+
 @media(max-width: 700px) {
   .about-section {
     margin-left: calc((100vw / 25) * 4);

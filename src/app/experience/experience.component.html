@@ -12,8 +12,15 @@
                 </ul>
             </div>
             <div class="experience-details">
-                <h1 class="job">{{ selectedCompany!.job }} <a href="{{ selectedCompany!.link }}" target="_blank" class="colored fa-regular fa-at">{{ selectedCompany!.name }}</a></h1>
-                <p class="date">{{ selectedCompany!.date }}</p>
+                <h1 class="job">
+                    {{ selectedCompany!.job }}
+                    <a href="{{ selectedCompany!.link }}" target="_blank" class="colored fa-regular fa-at">
+                        {{ selectedCompany!.name }}
+                    </a>
+                </h1>
+                <p class="date">
+                    {{ selectedCompany!.date }}
+                </p>
                 <ul>
                     <li *ngFor="let mission of selectedCompany.missions">
                         <p class="mission"><i class="fa-solid fa-circle-chevron-right colored icon"></i>{{ mission }}</p>

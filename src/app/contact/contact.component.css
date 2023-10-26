@@ -29,6 +29,10 @@
   color: #64FFDA;
 }
 
+.colored {
+  color: #CCD6F6;
+}
+
 .vertical-text {
   writing-mode: vertical-rl;
   white-space: nowrap;
