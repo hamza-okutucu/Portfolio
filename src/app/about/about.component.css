@@ -21,7 +21,7 @@
 }
 
 .about-content .about-text h1 {
-  font-size: 3.5vh;
+  font-size: min(3.5vh, 3.5vw);
   margin-bottom: 5vh;
   position: relative;
   color: #CCD6F6;
@@ -40,7 +40,7 @@
 }
 
 .about-content .about-text p {
-  font-size: 2vh;
+  font-size: min(2vh, 2vw);
   color: #8892B0;
   text-align: justify;
 }
@@ -60,15 +60,15 @@
 
 .about-content .about-pofile-picture {
   flex: 1;
-  font-size: 10vh;
+  font-size: min(10vh, 10vw);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .profile-image {
-  width: 17vw;
-  height: 30vh;
+  width: min(40vh, 40vw);
+  height: min(40vh, 40vw);
   filter: brightness(0.8) saturate(50%) hue-rotate(170deg);
   transition: filter 0.3s;
   border-radius: 50%;

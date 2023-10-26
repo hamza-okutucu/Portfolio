@@ -5,6 +5,7 @@
 }
 
 .home-content {
+  padding-top: 10vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,13 +13,13 @@
 }
 
 .home-content h1 {
-  font-size: 2.5vh;
+  font-size: min(2.5vh, 2.5vw);
   margin-bottom: 8vh;
   color: #64FFDA;
 }
 
 .home-content h2 {
-  font-size: 6vh;
+  font-size: min(6vh, 6vw);
   margin-bottom: 2vh;
   color:white;  
 }
@@ -33,7 +34,7 @@
 }
 
 .home-content p {
-  font-size: 2.5vh;
+  font-size: min(2.5vh, 2.5vw);
   margin-bottom: 8vh;
   color: #8892B0;
   text-align: justify;
