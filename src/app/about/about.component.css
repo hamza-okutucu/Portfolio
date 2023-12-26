@@ -67,8 +67,8 @@
 }
 
 .profile-image {
-  width: min(40vh, 40vw);
-  height: min(40vh, 40vw);
+  width: min(35vh, 35vw);
+  height: min(38vh, 38vw);
   filter: brightness(0.8) saturate(50%) hue-rotate(170deg);
   transition: filter 0.3s;
   border-radius: 50%;
